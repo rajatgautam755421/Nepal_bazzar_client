@@ -1,0 +1,46 @@
+.home__icon__main {
+  font-size: 35px !important;
+  cursor: pointer;
+}
+
+.home__icon__main:focus {
+  outline: none !important;
+}
+.add__post {
+  font-size: 32px !important;
+}
+
+.input__nav__main {
+  border-radius: 10px !important;
+  border-color: grey !important;
+}
+
+.input__nav__main:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+@media screen and (max-width: 1075px) {
+  .navbar {
+    display: none !important;
+  }
+}
+.inactive__nav {
+  border-bottom: 2px solid transparent;
+}
+.active__nav {
+  border-bottom: 2px solid black !important;
+}
+
+.active__noti {
+  border-bottom: 2px solid black;
+}
+
+.notactive__noti {
+  border-bottom: 2px solid transparent;
+}
+
+.profile__button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
